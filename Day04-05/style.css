@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#body {
+    background-color: #1e81b0;
+}
+
+/* Style the header */
+header {
+    background-color: #083d61;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    position: -webkit-sticky;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
+
+/* Style section headings */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style contact section */
+#contact {
+    background-color: #083d61;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style education and experience sections */
+#competences, #experience, #formation, #skills {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Style skills section */
+#connaissances {
+    background-color: #083d61;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.skill {
+    margin-bottom: 10px;
+    
+}
+
+.skill progress {
+    width: 25%;
+    height: 20px;
+    border: none;
+    background-color: none;
+    
+}
+
+.skill progress::-webkit-progress-value {
+    background-color: #74ffe8;
+    
+    
+}
+
+.lang {
+    margin-bottom: 10px;
+    
+}
+
+.lang progress {
+    width: 25%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.lang progress::-webkit-progress-value {
+    background-color: #85ff6c;
+    
+}
+
+/* Style the skills list */
+#connaissances ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+/* Style the skills list items */
+#connaissances ul li {
+    margin-bottom: 5px;
+}
+
+#phone-icon {
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+#mail-icon {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#linkedin-icon {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#footer {
+    text-align: center;
+    color: #1e81b0;
+}

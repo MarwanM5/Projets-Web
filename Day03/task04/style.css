@@ -1,0 +1,91 @@
+/* Default styles for larger screens */
+
+/* Header and navigation styles */
+header {
+    background-color: #00ffff;
+    height: 70px;
+    margin: 10px;
+    width: 50%;
+    
+}
+
+/* Section and article styles */
+section {
+    height: 235px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.block {
+    width: 50%;
+    height: 235px;
+    background-color: yellow;
+    margin-inline: 10px;
+    padding: 10px;
+}
+
+.block2 {
+    width: 50%;
+    height: 235px;
+    background-color: rgb(132, 0, 255);
+    margin-inline: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.block3 {
+    width: 50%;
+    height: 235px;
+    background-color: rgb(132, 0, 255);
+    margin-inline: 10px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.block4 {
+    width: 50%;
+    height: 235px;
+    background-color: rgb(234, 0, 255);
+    margin-inline: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff0000;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 60px;
+}
+
+/* Media query for screens up to 767px width */
+@media (min-width: 1024) {
+    /* Adjust header and navigation for smaller screens */
+    header {
+        padding: 5px 0;
+    }
+
+    /* Adjust section and article styles for smaller screens */
+    section {
+        padding: 10px;
+    }
+
+    article {
+        padding: 5px;
+    }
+
+    /* Adjust footer for smaller screens */
+    footer {
+        padding: 5px 0;
+    }
+}

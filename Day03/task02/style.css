@@ -1,0 +1,76 @@
+/* Default styles for larger screens */
+
+/* Header and navigation styles */
+header {
+    background-color: #00ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section and article styles */
+section {
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+}
+
+
+
+article {
+    
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff0000;
+    padding: 10px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+/* Media query for screens up to 767px width */
+@media (max-width: 767px) {
+    /* Adjust header and navigation for smaller screens */
+    header {
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    /* Adjust section and article styles for smaller screens */
+    section {
+        padding: 10px;
+    }
+
+    article {
+        padding: 5px;
+    }
+
+    /* Adjust footer for smaller screens */
+    footer {
+        padding: 5px 0;
+    }
+}
